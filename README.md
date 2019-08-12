@@ -1,6 +1,6 @@
 # simplewatch
 
-  ![simplewatch.png](https://github.com/dru18/simplewatch/blob/master/screenshots/simplewatche.png)
+  ![simplewatch.png](https://github.com/dru18/simplewatch/blob/master/screenshots/simplewatch.png)
 
 This script needs to have some additional packages to be installed on your system to work. It will install these dependencies for you automatically. These dependencies are,
 
