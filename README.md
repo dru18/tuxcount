@@ -24,7 +24,7 @@ This script needs to have some additional packages to be installed on your syste
 
 - **Done!** Now you are ready to search any file or directory using this script. Here are some examples for you.
 
-> Run `tuxcount --help` for help.
+- Run `tuxcount --help` for help.
 
   `tuxcount`
 
