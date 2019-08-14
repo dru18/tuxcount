@@ -21,8 +21,18 @@ then
     # If asking for help.
     if [ $1 == '--help' ]; 
     then
-      echo -e "Usage:\n\ntuxcount [--all]\n\ntuxcount[file/directory] [--all]\n\nExample:\n\ntuxcount\n\ntuxcount --all\n\ntuxcount testfile\n\ntuxcount testdirectory/ --all";
+      echo "$(cat about/manual)"
     else
+      # If asking for version.
+      if [ $1 == '--version' ]; 
+      then
+        echo "Version: tuxcount[$(cat about/version)]";
+      else
+      # If asking about tuxcount.
+      if [ $1 == '--show' ]; 
+      then
+        echo "Description: $(cat about/description)";
+      else
       # If default all
       if [ $1 == '--all' ]; 
       then
@@ -66,6 +76,8 @@ then
         else
         echo "[!] [$1] don't exist"
         fi
+      fi
+      fi
       fi
     fi
   fi
