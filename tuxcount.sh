@@ -21,7 +21,7 @@ then
     # If asking for help.
     if [ $1 == '--help' ]; 
     then
-      echo -e "Usage: tuxcount [file name] [all]\n\nExample:\n\ntuxcount\n\ntuxcount testfile/\n\ntuxcount testfile/ all";
+      echo -e "Usage:\n\ntuxcount [--all]\n\ntuxcount[file/directory] [--all]\n\nExample:\n\ntuxcount\n\ntuxcount --all\n\ntuxcount testfile\n\ntuxcount testdirectory/ --all";
     else
       # If default all
       if [ $1 == '--all' ]; 
