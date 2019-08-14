@@ -1,0 +1,15 @@
+Usage:
+
+tuxcount [--help | --show | --version | --all | file | directory]
+tuxcount [file | directory] [--all]
+
+Example:
+
+tuxcount --help
+tuxcount --show
+tuxcount --version
+tuxcount
+tuxcount --all
+tuxcount testfile
+tuxcount testdirectory/
+tuxcount testdirectory/ --all
