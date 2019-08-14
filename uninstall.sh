@@ -1,10 +1,10 @@
 #! /bin/bash
 
-# Remove soft link 'simplewatch' from /bin/ directory.
-sudo rm /bin/simplewatch
+# Remove soft link 'tuxcount' from /bin/ directory.
+sudo rm /bin/tuxcount
 
-# Remove 'simplewatch.sh' script from /usr/bin/ directory.
-sudo rm /usr/bin/simplewatch.sh
+# Remove 'tuxcount.sh' script from /usr/bin/ directory.
+sudo rm /usr/bin/tuxcount.sh
 
 # purge dependencies.
 sudo apt purge cowsay toilet

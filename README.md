@@ -1,6 +1,6 @@
-# simplewatch
+# tuxcount
 
-  ![simplewatch.png](https://github.com/dru18/simplewatch/blob/master/screenshots/simplewatch.png)
+  ![tuxcount.png](https://github.com/dru18/tuxcount/blob/master/screenshots/tuxcount.png)
 
 This script needs to have some additional packages to be installed on your system to work. It will install these dependencies for you automatically. These dependencies are,
 
@@ -12,11 +12,11 @@ This script needs to have some additional packages to be installed on your syste
 
 - Clone the repository
 
-  `git clone https://github.com/dru18/simplewatch.git`
+  `git clone https://github.com/dru18/tuxcount.git`
 
-- Enter into **simplewatch** directory.
+- Enter into **tuxcount** directory.
 
-  `cd simplewatch`
+  `cd tuxcount`
 
 - Run the *install.sh* file to install the script 'install.sh' automatically.
 
@@ -24,21 +24,23 @@ This script needs to have some additional packages to be installed on your syste
 
 - **Done!** Now you are ready to search any file or directory using this script. Here are some examples for you.
 
-  `simplewatch`
+> Run `tuxcount --help` for help.
 
-  ![simplewatch.png](https://github.com/dru18/simplewatch/blob/master/screenshots/simplewatch.png)
+  `tuxcount`
 
-  `simplewatch testfile.txt`
+  ![tuxcount.png](https://github.com/dru18/tuxcount/blob/master/screenshots/tuxcount.png)
 
-  ![simplewatchf.png](https://github.com/dru18/simplewatch/blob/master/screenshots/simplewatchf.png)
+  `tuxcount --all`
 
-  `simplewatch testdir.sh`
+  ![tuxcounta.png](https://github.com/dru18/tuxcount/blob/master/screenshots/tuxcount.png)
+
+  `tuxcount testfile`
+
+  ![tuxcountf.png](https://github.com/dru18/tuxcount/blob/master/screenshots/tuxcountf.png)
+
+  `tuxcount testdir`
   
-  ![simplewatchd.png](https://github.com/dru18/simplewatch/blob/master/screenshots/simplewatchd.png)
-
-  `simplewatch executablefile.sh`
-  
-  ![simplewatchda.png](https://github.com/dru18/simplewatch/blob/master/screenshots/simplewatchda.png)
+  ![tuxcountd.png](https://github.com/dru18/tuxcount/blob/master/screenshots/tuxcountd.png)
 
 - Run the *uninstall.sh* file to uninstall the script and it's dependencies.
 

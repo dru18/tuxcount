@@ -3,11 +3,11 @@
 # Install dependencies.
 sudo apt install cowsay toilet
 
-# Make 'simplewatch.sh' executable.
-sudo chmod 755 simplewatch.sh
+# Make 'tuxcount.sh' executable.
+sudo chmod 755 tuxcount.sh
 
-# Copy 'simplewatch.sh' to /usr/bin/ directory.
-sudo cp simplewatch.sh /usr/bin/
+# Copy 'tuxcount.sh' to /usr/bin/ directory.
+sudo cp tuxcount.sh /usr/bin/
 
-# Make soft link for /usr/bin/simplewatch.sh to /bin/simplewatch
-sudo ln -s /usr/bin/simplewatch.sh /bin/simplewatch
+# Make soft link for /usr/bin/tuxcount.sh to /bin/tuxcount
+sudo ln -s /usr/bin/tuxcount.sh /bin/tuxcount
