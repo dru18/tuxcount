@@ -24,8 +24,6 @@ This script needs to have some additional packages to be installed on your syste
 
 - **Done!** Now you are ready to search any file or directory using this script. Here are some examples for you.
 
-- Run `tuxcount --help` for help.
-
   `tuxcount`
 
   ![tuxcount.png](https://github.com/dru18/tuxcount/blob/master/screenshots/tuxcount.png)
@@ -41,6 +39,8 @@ This script needs to have some additional packages to be installed on your syste
   `tuxcount testdir`
   
   ![tuxcountd.png](https://github.com/dru18/tuxcount/blob/master/screenshots/tuxcountd.png)
+
+- Run `tuxcount --help` for help.
 
 - Run the *uninstall.sh* file to uninstall the script and it's dependencies.
 
