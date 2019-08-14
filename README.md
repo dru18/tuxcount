@@ -42,6 +42,10 @@ This script needs to have some additional packages to be installed on your syste
 
 - Run `tuxcount --help` for help.
 
+- Run `tuxcount --show` for show.
+
+- Run `tuxcount --version` for version.
+
 - Run the *uninstall.sh* file to uninstall the script and it's dependencies.
 
   `sudo bash uninstall.sh`
